@@ -144,7 +144,7 @@
             <img class="img-fluid imgCenter" src="assets/kickflip.jpg">
             <div class="row">
                 <div class="col-sm-12">
-                  <button type="button" class="btn btn-danger btn-lg btnCenter">kickflip</button>
+                  <button type="button" class="btn btn-danger btn-lg btnCenter" data-bs-toggle="modal" data-bs-target=".kf-modal-lg">kickflip</button>
                 </div>
             </div>
           </div>
@@ -152,7 +152,7 @@
             <img class="img-fluid imgCenter" src="assets/360flip.jpg">
             <div class="row">
                 <div class="col-sm-12">
-                  <button type="button" class="btn btn-danger btn-lg btnCenter">360 Flip</button>
+                  <button type="button" class="btn btn-danger btn-lg btnCenter" data-bs-toggle="modal" data-bs-target=".threeSixty-modal-md">360 Flip</button>
                 </div>
             </div>
           </div>
@@ -160,7 +160,7 @@
             <img class="img-fluid imgCenter" src="assets/bscrook.jpg">
             <div class="row">
                 <div class="col-sm-12">
-                  <button type="button" class="btn btn-danger btn-lg btnCenter">BS Crook</button>
+                  <button type="button" class="btn btn-danger btn-lg btnCenter" data-bs-toggle="modal" data-bs-target=".bscrook-modal-sm">BS Crook</button>
                 </div>
             </div>
           </div>
@@ -171,47 +171,82 @@
 
   <!-- Modal -->
   <!-- Cool Stuff Modal -->
-<div class="modal fade" id="coolStuffModal" tabindex="-1" aria-labelledby="coolStuffLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="contentLabel">Get Exclusive Content</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="container-fluid">
-          <div class="row">
+  <div class="modal fade" id="coolStuffModal" tabindex="-1" aria-labelledby="coolStuffLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contentLabel">Get Exclusive Content</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
             <div class="col-sm-12">
-              <img class="img-fluid" src="assets/KFS_modal.png">
+                <img class="img-fluid" src="assets/KFS_modal.png">
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="modalFormWrapper">
-                <form>
-                  <div class="form-group">
-                    <label for="forNamet">What's your name?</label>
-                    <input type="text" class="form-control" id="formName" placeholder="Name">
-                  </div>
-                  <div class="form-group">
-                    <label for="forEmail">Where should we send your cool content?</label>
-                    <input type="text" class="form-control" id="formEmail" placeholder="Email">
-                  </div>
-                </form>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="modalFormWrapper">
+                  <form>
+                    <div class="form-group">
+                      <label for="forNamet">What's your name?</label>
+                      <input type="text" class="form-control" id="formName" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="forEmail">Where should we send your cool content?</label>
+                      <input type="text" class="form-control" id="formEmail" placeholder="Email">
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+
+<!-- kickflip modal -->
+<div class="modal fade kf-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/ilzy0viqVes" title="YouTube video" allowfullscreen></iframe>
+      </div>
+      <p>bla</p>
+    </div>
+  </div>
 </div>
 
+<!-- 360 modal -->
+<div class="modal fade threeSixty-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/ilzy0viqVes" title="YouTube video" allowfullscreen></iframe>
+      </div>
+      <p>test</p>
+    </div>
+  </div>
+</div>
+
+<!-- BS crook modal -->
+<div class="modal fade bscrook-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/ilzy0viqVes" title="YouTube video" allowfullscreen></iframe>
+      </div>
+      <p>boop</p>
+    </div>
+  </div>
+</div>
 
 
 
